@@ -22,4 +22,4 @@ jobs:
                 pip install -r requirements.txt
 
             - name: Setting up test cases
-              run: echo "Testing has been complet1ed."
+              run: echo "Testing has been completed."
