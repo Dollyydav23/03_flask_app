@@ -9,7 +9,7 @@ jobs:
     python_app:
         runs-on: ubuntu_latest
         steps:
-            - uses: actions\checkout@v4
+            - uses: actions/checkout@v4
 
             - name: Setting up python in your runner
               uses: actions/setup-python@v5
